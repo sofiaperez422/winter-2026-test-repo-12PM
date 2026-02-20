@@ -14,3 +14,12 @@ library(lterdatasampler)
 
 data(pie_crab)
 ```
+
+# New section: exploratory visualization
+
+```{r}
+#| label: latitude size plot
+ggplot(data = pie_crab,
+       aes(x = latitude,
+           y = size))
+```
