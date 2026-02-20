@@ -1,0 +1,16 @@
+---
+title: "Workshop-test-repo-12PM"
+author: "Sofia Perez"
+date: "2026-02-20"
+format: html
+editor: visual
+---
+
+## Set up chunk
+
+```{r}
+library(tidyverse)
+library(lterdatasampler)
+
+data(pie_crab)
+```
