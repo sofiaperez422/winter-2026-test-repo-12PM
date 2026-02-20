@@ -23,5 +23,10 @@ data(pie_crab) # importing pie crab data
 # base layer for
 ggplot(data = pie_crab, # use pie_crab data
        aes(x = latitude, # set x-axis
-           y = size)) # set y-axis
+           y = size, # set y-axis
+           color = site)) +
+  geom_point() + # creating scatter plot
+  theme_minimal() + # changing theme
+  scale_color_viridis(discrete - TRUE, # selecting specific color palette from viridis package
+                      option = "plasma")
 ```
